@@ -8,13 +8,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ernesto-jimenez/gogen/unmarshalmap/testpkg"
+	"github.com/01ne/gogen/unmarshalmap/testpkg"
 	"github.com/mitchellh/mapstructure"
-	"github.com/stretchr/testify/assert"
+	"github.com/01ne/testify/assert"
 )
 
 func TestNewGenerator(t *testing.T) {
-	_, err := NewGenerator("github.com/ernesto-jimenez/gogen/unmarshalmap/testpkg", "SimpleStruct")
+	_, err := NewGenerator("github.com/01ne/gogen/unmarshalmap/testpkg", "SimpleStruct")
 	assert.NoError(t, err)
 }
 

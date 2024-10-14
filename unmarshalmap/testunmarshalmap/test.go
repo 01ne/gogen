@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/require"
+	"github.com/01ne/testify/require"
 )
 
 // Debug indicates we should log debugging information

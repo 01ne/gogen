@@ -19,19 +19,19 @@
 		},
 		{
 			"checksumSHA1": "EO+jcRet/AJ6IY3lBO8l8BLsZWg=",
-			"path": "github.com/stretchr/objx",
+			"path": "github.com/01ne/objx",
 			"revision": "cbeaeb16a013161a98496fad62933b1d21786672"
 		},
 		{
 			"checksumSHA1": "5XAzjZrdlLh1mgd7xEvoK6LeLCA=",
 			"comment": "v1.0-85-ga1f9799",
-			"path": "github.com/stretchr/testify/assert",
+			"path": "github.com/01ne/testify/assert",
 			"revision": "a1f97990ddc16022ec7610326dd9bce31332c116"
 		},
 		{
 			"checksumSHA1": "30IdH2X8uhLBS/sdBi6Lw+fcFTA=",
 			"comment": "v1.0-85-ga1f9799",
-			"path": "github.com/stretchr/testify/mock",
+			"path": "github.com/01ne/testify/mock",
 			"revision": "a1f97990ddc16022ec7610326dd9bce31332c116"
 		},
 		{
@@ -40,5 +40,5 @@
 			"revision": "b7f0150d16f143e2d871156fa142dd6fa372ffdf"
 		}
 	],
-	"rootPath": "github.com/ernesto-jimenez/gogen"
+	"rootPath": "github.com/01ne/gogen"
 }

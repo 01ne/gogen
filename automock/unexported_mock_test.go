@@ -1,5 +1,5 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/automock
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/automock
 * THIS FILE SHOULD NOT BE EDITED BY HAND
  */
 
@@ -7,7 +7,7 @@ package automock
 
 import (
 	"fmt"
-	mock "github.com/stretchr/testify/mock"
+	mock "github.com/01ne/testify/mock"
 )
 
 // unexportedMock mock

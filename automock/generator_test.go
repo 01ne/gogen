@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/mock"
+	"github.com/01ne/testify/assert"
+	"github.com/01ne/testify/mock"
 )
 
 func TestNewGenerator(t *testing.T) {
@@ -52,7 +52,7 @@ func TestWritesProperly(t *testing.T) {
 		{"net/http", "CookieJar"},
 		{"io", "Writer"},
 		{"io", "ByteScanner"},
-		{"github.com/ernesto-jimenez/gogen/automock", "unexported"},
+		{"github.com/01ne/gogen/automock", "unexported"},
 		{".", "unexported"},
 	}
 	for _, test := range tests {

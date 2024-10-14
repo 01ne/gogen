@@ -8,7 +8,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ernesto-jimenez/gogen/unmarshalmap"
+	"github.com/01ne/gogen/unmarshalmap"
 )
 
 var (

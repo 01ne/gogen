@@ -31,8 +31,8 @@ import (
 	"regexp"
 	"text/template"
 
-	"github.com/ernesto-jimenez/gogen/cleanimports"
-	"github.com/ernesto-jimenez/gogen/imports"
+	"github.com/01ne/gogen/cleanimports"
+	"github.com/01ne/gogen/imports"
 )
 
 // Generator contains the metadata needed to generate all the function wrappers
@@ -295,7 +295,7 @@ var headerTpl = template.Must(template.New("header").Parse(`/*
 * THIS FILE MUST NOT BE EDITED BY HAND
 *
 * Install goexportdefault with:
-* go get github.com/ernesto-jimenez/gogen/cmd/goexportdefault
+* go get github.com/01ne/gogen/cmd/goexportdefault
 */
 
 package {{.Name}}

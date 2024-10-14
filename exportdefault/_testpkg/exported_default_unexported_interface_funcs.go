@@ -3,7 +3,7 @@
 * THIS FILE MUST NOT BE EDITED BY HAND
 *
 * Install goexportdefault with:
-* go get github.com/ernesto-jimenez/gogen/cmd/goexportdefault
+* go get github.com/01ne/gogen/cmd/goexportdefault
  */
 
 package testpkg

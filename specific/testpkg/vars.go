@@ -1,5 +1,5 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/specific
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/specific
 * THIS FILE SHOULD NOT BE EDITED BY HAND
 */
 

@@ -77,7 +77,7 @@ func access(current, selector, value interface{}, isSet, panics bool) interface{
 		index := -1
 		var err error
 
-		// https://github.com/stretchr/objx/issues/12
+		// https://github.com/01ne/objx/issues/12
 		if strings.Contains(thisSel, "[") {
 
 			arrayMatches := arrayAccesRegex.FindStringSubmatch(thisSel)

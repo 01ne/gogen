@@ -8,9 +8,9 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/ernesto-jimenez/gogen/cleanimports"
-	"github.com/ernesto-jimenez/gogen/importer"
-	"github.com/ernesto-jimenez/gogen/imports"
+	"github.com/01ne/gogen/cleanimports"
+	"github.com/01ne/gogen/importer"
+	"github.com/01ne/gogen/imports"
 )
 
 // Generator produces code to mock an interface
@@ -157,7 +157,7 @@ func (err GenerationError) CodeWithLineNumbers() string {
 
 var (
 	defaultMockTemplate = `/*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/automock
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/automock
 * THIS FILE SHOULD NOT BE EDITED BY HAND
 */
 
@@ -165,7 +165,7 @@ package {{.Package}}
 
 import (
 	"fmt"
-	mock "github.com/stretchr/testify/mock"
+	mock "github.com/01ne/testify/mock"
 {{range $path, $name := .Imports}}
 	{{$name}} "{{$path}}"{{end}}
 )

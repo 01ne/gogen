@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/ernesto-jimenez/gogen/cleanimports"
-	"github.com/ernesto-jimenez/gogen/gogenutil"
-	"github.com/ernesto-jimenez/gogen/importer"
-	"github.com/ernesto-jimenez/gogen/imports"
+	"github.com/01ne/gogen/cleanimports"
+	"github.com/01ne/gogen/gogenutil"
+	"github.com/01ne/gogen/importer"
+	"github.com/01ne/gogen/imports"
 )
 
 // Generator will generate the UnmarshalMap function
@@ -118,7 +118,7 @@ func (g Generator) WriteTest(wr io.Writer) error {
 
 var (
 	testTmpl = template.Must(template.New("test").Parse(`/*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/unmarshalmap
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/unmarshalmap
 * THIS FILE SHOULD NOT BE EDITED BY HAND
 */
 
@@ -126,7 +126,7 @@ package {{.Package}}
 
 import (
 	"testing"
-	test "github.com/ernesto-jimenez/gogen/unmarshalmap/testunmarshalmap"
+	test "github.com/01ne/gogen/unmarshalmap/testunmarshalmap"
 )
 
 func Test{{.Name}}UnmarshalMap(t *testing.T) {
@@ -134,7 +134,7 @@ func Test{{.Name}}UnmarshalMap(t *testing.T) {
 }
 `))
 	fnTmpl = template.Must(template.New("func").Parse(`/*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/unmarshalmap
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/unmarshalmap
 * THIS FILE SHOULD NOT BE EDITED BY HAND
 */
 

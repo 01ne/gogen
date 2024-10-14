@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/ernesto-jimenez/gogen/exportdefault/_testpkg"
+	"github.com/01ne/gogen/exportdefault/_testpkg"
 )
 
 func TestGeneratedFuncs(t *testing.T) {

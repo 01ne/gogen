@@ -63,7 +63,7 @@ func TestProcessTestPkg(t *testing.T) {
 	}
 	defer os.Remove(out)
 
-	Process("github.com/ernesto-jimenez/gogen/specific/_testpkg", out, "string", func(opts *Options) {
+	Process("github.com/01ne/gogen/specific/_testpkg", out, "string", func(opts *Options) {
 		opts.SkipTestFiles = true
 	})
 

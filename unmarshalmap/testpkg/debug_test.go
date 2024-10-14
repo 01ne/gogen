@@ -1,7 +1,7 @@
 package testpkg
 
 import (
-	"github.com/ernesto-jimenez/gogen/unmarshalmap/testunmarshalmap"
+	"github.com/01ne/gogen/unmarshalmap/testunmarshalmap"
 )
 
 func init() {

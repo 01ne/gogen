@@ -165,7 +165,7 @@ func write(outdir string, files []processedFile) error {
 		}
 
 		fmt.Fprintf(out, "/*\n"+
-			"* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/specific\n"+
+			"* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/specific\n"+
 			"* THIS FILE SHOULD NOT BE EDITED BY HAND\n"+
 			"*/\n\n")
 		printer.Fprint(out, f.fset, f.file)

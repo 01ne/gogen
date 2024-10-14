@@ -3,7 +3,7 @@ package specific
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/01ne/testify/assert"
 )
 
 func TestFindPackage(t *testing.T) {

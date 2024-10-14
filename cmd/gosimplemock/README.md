@@ -54,7 +54,7 @@ Printing the generated code:
 ```go
 $ gosimplemock -o=- io.ReadCloser
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/ernesto-jimenez/gogen/cmd/gosimplemock
+* CODE GENERATED AUTOMATICALLY WITH github.com/01ne/gogen/cmd/gosimplemock
 * THIS FILE SHOULD NOT BE EDITED BY HAND
  */
 
